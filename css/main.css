@@ -1,3 +1,9 @@
-.letra {
+.letra-pacifico {
 	font-family: 'Pacifico', cursive;
+}
+.letra-bree {
+	font-family: 'Bree Serif', serif;
+}
+.top {
+	margin-top: 5%;
 }
