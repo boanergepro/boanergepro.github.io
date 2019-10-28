@@ -2,173 +2,172 @@
 <html>
 
 <head>
-	<!--Import Google Icon Font-->
-	<link href="css/icon.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
-	<!--Import materialize.css-->
-	<link rel="stylesheet" href="css/materialize.min.css">
-	<!--Tipos de letra-->
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-	<!--Let browser know website is optimized for mobile-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-
-	<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
-
-	<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
-
-	<title>Mi pagina</title>
+    <!--Import Google Icon Font-->
+    <link href="css/icon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Tipos de letra-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Mi pagina</title>
 </head>
 
 <body>
+<nav class="navbar" style="border-bottom: 1px solid #ffffff;">
+    <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item avatar">
+            <a class="nav-link p-0" href="#">
+                <img src="assets/avatar-no-background.png" class="rounded-circle z-depth-0"
+                     alt="avatar image" height="35">
+            </a>
+        </li>
+    </ul>
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link name-nav">Antony Carrizo</a>
+        </li>
+    </ul>
 
-	<nav class="white">
-		<a href="#" class="brand-logo center black-text letra-pacifico">Programming for Love</a>
-	</nav>
+    <ul class="navbar-nav ms-auto nav-flex-icons">
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://github.com/boanergepro">
+                <i class="fa fa-github icon-social"></i>
+            </a>
+        </li>
+    </ul>
+    <ul class="navbar-nav ms-auto nav-flex-icons">
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://gitlab.com/boanergepro">
+                <i class="fa fa-gitlab icon-social"></i>
+            </a>
+        </li>
+    </ul>
+    <ul class="navbar-nav ms-auto nav-flex-icons">
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.pinterest.es/boanergepro/">
+                <i class="fa fa-pinterest icon-social"></i>
+            </a>
+        </li>
+    </ul>
+    <ul class="navbar-nav ms-auto nav-flex-icons">
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/antonycarrizo/">
+                <i class="fa fa-linkedin icon-social"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <!--bio short-->
+        <div class="col-sm" style="height: 100%">
+            <div style="margin-top: 3%; margin-left: 3%">
+                <p class="text text-pacifico text-white" style="margin-bottom: 3%">Sobre mi:</p>
+                <p class="text-break text-white text text-bree">
+                    Soy un programador que se desempeña como <b>freelance</b> y que actualmente vive en Venezuela.
+                </p>
+                <p class="text-break text-white text text-bree">
+                    Siempre me ha <b>apasionado</b> crear cosas. Hoy en día uso esta creatividad para diseñar y desarrollar <b>aplicaciones móviles</b> basado en los mas altos estandares de diseño, pensando siempre en la mejor <b>usabilidad</b> del <b>usuario</b>.
+                </p>
+            </div>
+        </div>
+        <!--SKILLS-->
+        <div class="col-sm">
+            <div class="row" style="margin-top: 3%;">
+                <div class="col-sm-4 text-md-center">
+                    <p class="text text-pacifico text-white">Lenguajes</p>
+                    <div class="item-skill">
+                        <div>
+                            <img class="image-skill" style="margin-top: 3%" src="assets/dart.svg" alt="">
+                        </div>
+                        <div class="name-skill" >
+                            <p class="text-bree">
+                                Dart
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-skill">
+                        <div>
+                            <img class="image-skill" src="assets/javascript.svg" alt="">
+                        </div>
+                        <div class="name-skill">
+                            <p class="text-bree">
+                                JavaScript
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-md-center">
+                    <p class="text text-pacifico text-white">Herramientas</p>
+                    <div class="item-skill">
+                        <div>
+                            <img class="image-skill" style="margin-top: 3%" src="assets/firebase.png">
+                        </div>
+                        <div class="name-skill">
+                            <p class="text-bree">
+                                Firebase
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-skill">
+                        <div>
+                            <img class="image-skill" style="margin-top: 3%" src="assets/studio.png">
+                        </div>
+                        <div class="name-skill">
+                            <p class="text-bree">
+                                Android Studio
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-skill">
+                        <div>
+                            <img class="image-skill" src="assets/webstorm.svg">
+                        </div>
+                        <div class="name-skill">
+                            <p class="text-bree">
+                                WebStorm
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-md-center">
+                    <p class="text text-pacifico text-white">Frameworks</p>
+                    <div class="item-skill">
+                        <div>
+                            <img class="image-skill" style="margin-top: 3%" src="assets/flutter.png">
+                        </div>
+                        <div class="name-skill">
+                            <p class="text-bree">
+                                Flutter
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-skill">
+                        <div>
+                            <img class="image-skill" style="margin-top: 3%" src="assets/nodejs.png">
+                        </div>
+                        <div class="name-skill">
+                            <p class="text-bree">
+                                NodeJs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	<div class="container color-background">
-		<div class="row">
-			<div class="col s6 m4">
-				<div class="card">
-					<div class="card-image">
-						<img src="assets/profile.jpg">
-						<a class="btn-floating halfway-fab waves-effect waves-light red"><i
-								class="material-icons activator">add</i></a>
-					</div>
-					<div class="card-content">
-						<h5 class="letra-bree">Antony Carrizo</h5>
-						<p>A passionate about programming, and a believer that "When you know you have a purpose in life and you
-							walk in the way of it, God supports you".</p>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4">Contact me<i class="material-icons right">close</i></span>
+    </div>
+</div>
 
-						<div class="row top">
-							<div class="col s4 top">
-								<a href="https://github.com/boanergepro">
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-
-									<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-										<path fill="#000000"
-											d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
-									</svg>
-
-								</a>
-
-							</div>
-							<div class="col s4 top">
-								<a href="https://plus.google.com/u/0/">
-									<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-										<path fill="#f44336"
-											d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z" />
-									</svg>
-								</a>
-
-							</div>
-							<div class="col s4 top">
-								<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-									<path fill="#0e76a8"
-										d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
-								</svg>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col s12">
-								<span>
-
-									<a href="https://boanergepro.github.io">
-										<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-											<path fill="#4caf50 "
-												d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z" />
-										</svg>
-									</a>
-								</span>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<div class="col s6 m8">
-				<h5 class="letra-bree">Used languages</h5>
-				<!-- Used languages -->
-				<div class="row center letra-bree top">
-
-					<div class="col m3">
-						<div class="chip yellow white-text z-depth-3">JavaScript</div>
-					</div>
-
-					<div class="col m3">
-						<div class="chip deep-orange darken-1 white-text z-depth-3">HTML</div>
-					</div>
-
-					<div class="col m3">
-						<div class="chip purple darken-3 white-text z-depth-3">CSS</div>
-					</div>
-
-					<div class="col m3">
-						<div class="chip light-blue accent-4 white-text z-depth-3">Go</div>
-					</div>
-
-				</div>
-
-				<div class="row center letra-bree">
-
-					<div class="col m3">
-						<div class="chip green darken-4 white-text z-depth-3">C++</div>
-					</div>
-
-					<div class="col m3">
-						<div class="chip blue-grey darken-4 white-text z-depth-3">C</div>
-					</div>
-
-					<div class="col m3">
-						<div class="chip indigo white-text z-depth-3">Python</div>
-					</div>
-
-					<div class="col m3">
-						<div class="chip indigo darken-2 white-text z-depth-3">PHP</div>
-					</div>
-
-				</div>
-				<h5 class="letra-bree">Used technologies</h5>
-				<!-- Used technologies -->
-				<div class="row center top">
-					<div class="col s4">
-						<div class="card-panel green">
-							<h5 class="letra-bree white-text">NodeJS</h5>
-						</div>
-					</div>
-					<div class="col s4">
-						<div class="card-panel blue">
-							<h5 class="letra-bree white-text">PSQL</h5>
-						</div>
-					</div>
-					<div class="col s4">
-						<div class="card-panel indigo">
-							<h5 class="letra-bree white-text">MSQL</h5>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="calendar">
-				<!--Aqui se renderiza el github calendar-->
-			</div>
-		</div>
-	</div>
-
-	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
-	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-	<script>
-		GitHubCalendar(".calendar", "boanergepro");
-	</script>
 </body>
 
 </html>
+
+<!--<p>Soy un programador apasionado por la innovacion y produccion de soluciones tegnologicas basadas en principios basados en los mas altols estandares de dise#no, pensando siempre en la mejor usabilidad del usuario</p>-->
