@@ -1,0 +1,58 @@
+[
+  {
+    "empresa": "ACL",
+    "modalidad": "Remote",
+    "puesto": "Desarrollador (Mobile)",
+    "fechas": "Julio 2025 - Noviembre 2025",
+    "descripcion": "Construcción de aplicación en Flutter con integración de servicios de geoposicionamiento (Google Maps) y visualización de métricas de pacientes en tiempo real. Arquitectura de datos basada en el consumo de APIs externas y funcionalidades serverless de Firebase. Participación simultánea en el desarrollo frontend de la interfaz administrativa utilizando Angular."
+  },
+  {
+    "empresa": "ACL",
+    "modalidad": "Remote",
+    "puesto": "Desarrollador (Mobile)",
+    "fechas": "Diciembre 2024 - Abril 2025",
+    "descripcion": "Desarrollo integral y publicación de una aplicación móvil multiplataforma (Flutter) para la creación de jardines sustentables. La solución integra Inteligencia Artificial para la identificación botánica mediante análisis de imágenes y utiliza la API de Google Maps para el trazado de polígonos (Polylines), permitiendo calcular factores climáticos geolocalizados para recomendar cultivos eficientes. Arquitectura respaldada por Firebase para la persistencia de datos y autenticación."
+  },
+  {
+    "empresa": "ACL",
+    "modalidad": "Remote",
+    "puesto": "Analista Desarrollador (Mobile)",
+    "fechas": "Julio 2024 - Agosto 2024",
+    "descripcion": "Refactorización y optimización de una aplicación móvil de gestión de tareas y productividad desarrollada en Flutter. Implementación de Clean Architecture y el patrón Provider para una gestión de estado eficiente y escalable. El proyecto abarcó el rediseño integral de la interfaz (UI/UX) basado en prototipos de Figma, asegurando una experiencia de usuario fluida, con integración de servicios Firebase para el manejo de datos."
+  },
+  {
+    "empresa": "Devontic",
+    "modalidad": "Remote",
+    "puesto": "Desarrollador de Front-end",
+    "fechas": "Octubre 2023 - Junio 2024",
+    "descripcion": "Desarrollo de soluciones digitales móviles y web. Creación de una aplicación multiplataforma en Flutter destinada a la planificación y logística de eventos, implementando GetX para una gestión de estado eficiente. Simultáneamente, colaboración en el mantenimiento y optimización de una plataforma web en Next.js para la gestión de pedidos industriales en una empresa de manufactura de refrigeración. Integración de pipelines CI/CD y administración de bases de datos con Supabase y PostgreSQL"
+  },
+  {
+    "empresa": "SunDevs",
+    "modalidad": "Remote",
+    "puesto": "Senior Flutter Dev",
+    "fechas": "Mayo 2022 - Marzo 2023",
+    "descripcion": "Desarrollo y optimización de una solución Fintech multiplataforma (Flutter) para el envío de remesas internacionales. Implementación de flujos críticos de seguridad, incluyendo validación de identidad (KYC) y consumo de APIs bancarias para la verificación de tarjetas de crédito y fondeo de cuentas. Aplicación de Clean Architecture y GetX para garantizar la estabilidad transaccional, además de brindar mentoría técnica y apoyo en el onboarding de nuevos desarrolladores"
+  },
+  {
+    "empresa": "RestaPros",
+    "modalidad": "Remote",
+    "puesto": "Semi Senior Flutter Dev",
+    "fechas": "Septiembre 2020 - Febrero 2023",
+    "descripcion": "Desarrollo de módulos críticos para una aplicación de gestión operativa de restaurantes en Flutter. Implementación de funcionalidades para la administración de inventarios, asignación de horarios y supervisión de tareas (Checklists). Desarrollo de un sistema de chat interno en tiempo real para la comunicación entre empleados, utilizando Provider para la gestión de estado y Firebase como backend para asegurar la sincronización instantánea de datos."
+  },
+  {
+    "empresa": "Limbic Chile",
+    "modalidad": "Remote",
+    "puesto": "Semi Senior Flutter Dev",
+    "fechas": "Marzo 2019 - Octubre 2021",
+    "descripcion": "Desarrollo y optimización de módulos finales en una aplicación de comercio electrónico para el sector moda. Implementación técnica de 'SAM', un asistente virtual (Coach Digital) integrado con Dialogflow. Desarrollo de la interfaz de chat en Flutter y su conexión con el motor de procesamiento de lenguaje natural para brindar interacciones inteligentes al usuario."
+  },
+  {
+    "empresa": "BMKero's",
+    "modalidad": "Presencial",
+    "puesto": "Junior Flutter Dev",
+    "fechas": "Septiembre 2018 - Marzo 2021",
+    "descripcion": "Desarrollo de soluciones de software a medida dentro de una cooperativa de servicios tecnológicos. Participación activa en equipos multidisciplinarios para la construcción, mejora y mantenimiento de múltiples proyectos simultáneos, adaptándose a los requerimientos específicos de cada cliente."
+  }
+]
